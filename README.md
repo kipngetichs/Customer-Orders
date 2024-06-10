@@ -210,9 +210,22 @@ Steps are needed to clean and shape the data into the desired format is:
 
 # OUTPUT
 
+![Duplicates Count Check img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/f6c1352d-53d0-4f6e-a6af-e3586db44199)
 
+- There were no dupliactes encounterd in the data meaning the data is accurate for analysis.
 
+# Null Count Check
+# SQL Query
+    SELECT Order_ID,
 
+    COUNT(*)Null_Count_Check
+
+    FROM larger_sales_datasets
+
+    WHERE Order_ID IS NULL
+
+    GROUP BY Order_ID
+# OUTPUT
 
 
 
