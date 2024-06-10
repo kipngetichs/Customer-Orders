@@ -130,6 +130,7 @@ Steps are needed to clean and shape the data into the desired format is:
  - Column like Unit Price,Customer Id and Product Id were able to be removed retaining the necessesary column.
 
 # Data Pre-Processing
+# Adding Week Name Column
 # SQL Query
     ALTER TABLE larger_sales_datasets
 
@@ -141,8 +142,20 @@ Steps are needed to clean and shape the data into the desired format is:
 
 # OUTPUT
 
+![Week Name  Alter img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/c532d1f6-d303-40c1-9cce-145622723359)
 
+- Week Name column was able to be added as well updating it with days of the week.
+# Adding Month Name Column 
+# SQL Query
+    ALTER TABLE larger_sales_datasets
 
+    ADD Month_Name VARCHAR(50)
+
+    UPDATE larger_sales_datasets
+
+    SET Month_Name=DATENAME(MONTH,Order_Date)
+
+# OUTPUT
 
 
 
