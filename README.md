@@ -162,7 +162,7 @@ Steps are needed to clean and shape the data into the desired format is:
 - Week numbers and Month numbers columns was also added using the same procedure for sorting purposes.
 # Data Type Conversions
 # SQL Query
-ALTER TABLE larger_sales_datasets
+    ALTER TABLE larger_sales_datasets
 
     ALTER COLUMN Order_ID VARCHAR(50)
 
@@ -191,10 +191,24 @@ ALTER TABLE larger_sales_datasets
     ALTER COLUMN Order_Status VARCHAR(50)
 
 # OUTPUT
+![Date type conversions img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/bd9ad1fb-f208-4da0-a887-409350b40ebe)
 
+- All data type were converted to the relevent ones.
 
+# Testing
+- Here are the data quality tests conducted:
+# Duplicate Count Check
+    SELECT Order_ID,
 
+    COUNT(*)Duplicates_Count_Check
 
+    FROM larger_sales_datasets
+
+    GROUP BY Order_ID
+
+    HAVING COUNT(*)>1
+
+# OUTPUT
 
 
 
