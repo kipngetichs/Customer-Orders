@@ -226,10 +226,19 @@ Steps are needed to clean and shape the data into the desired format is:
 
     GROUP BY Order_ID
 # OUTPUT
+![Null count check](https://github.com/kipngetichs/Customer-Orders/assets/169267198/ddcff2e3-33a4-4dbc-9f63-efd791bb82bb)
 
+- There were no null values in Order Id colulmn as well as other columns i have crossed check all meaning our data is valid.
 
+# Data Type Check
+# SQL Query
+    SELECT COLUMN_NAME,DATA_TYPE
 
+    FROM INFORMATION_SCHEMA.COLUMNS
 
+    WHERE TABLE_NAME='larger_sales_datasets'
+
+# OUTPUT
 
 
 
