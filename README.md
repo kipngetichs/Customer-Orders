@@ -125,9 +125,21 @@ Steps are needed to clean and shape the data into the desired format is:
     Customer_ID
 
 # OUTPUT
+ ![columns Drop img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/7fe51e51-0dd3-4dd0-8352-70e198c1e2cf)
 
+ - Column like Unit Price,Customer Id and Product Id were able to be removed retaining the necessesary column.
 
+# Data Pre-Processing
+# SQL Query
+    ALTER TABLE larger_sales_datasets
 
+    ADD Week_Name VARCHAR(50)
+
+    UPDATE larger_sales_datasets
+
+    SET Week_Name=DATENAME(DW,Order_Date)
+
+# OUTPUT
 
 
 
