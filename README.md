@@ -239,8 +239,12 @@ Steps are needed to clean and shape the data into the desired format is:
     WHERE TABLE_NAME='larger_sales_datasets'
 
 # OUTPUT
+![data Type img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/a9bcc4d3-8b36-4003-968a-4f5f679a1940)
 
-
+- All data types were matching the relevent columns.
+# Visualization
+# Results
+- This is the look of the dashboard
 
 
 
