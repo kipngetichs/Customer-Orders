@@ -101,12 +101,30 @@ The following caught my attention so far:
 2. Their is product category column which indicates analysis of various sales distributions across different products.
 3. Their is Order Id ,Total Price  And Quantity columns that we need to determine their relationships and contributions towards various products.
 4. We have also Order Status And Payment Types column which will help to identify efficency of order and also preferences of customers based on the payment methods.
+# Data cleaning
+The aim is to refine our dataset to ensure it is structured and ready for analysis.
 
+The cleaned data should meet the following criteria and constraints:
+- Only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain null values, indicating complete data for all records.
+- No Duplicates in Order ids should be encountered.
+Steps are needed to clean and shape the data into the desired format is:
+1. Removing unnecessary Columns by dropping and retaining necessary columns.
+2. Adding some columns that are necessary for our analysis by performing data pre-processing.
+3. Data type conversions.
+# Dropping Unnecessary Columns
+# SQL Query
 
+    ALTER TABLE larger_sales_datasets
 
+    DROP COLUMN Product_ID,
 
+    Unit_Price,
 
+    Customer_ID
 
+# OUTPUT
 
 
 
