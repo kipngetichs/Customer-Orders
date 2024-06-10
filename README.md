@@ -156,8 +156,41 @@ Steps are needed to clean and shape the data into the desired format is:
     SET Month_Name=DATENAME(MONTH,Order_Date)
 
 # OUTPUT
+![Month Name Column img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/3792c813-3989-4863-a297-3a2125ad7da7)
 
+- Month Name column was able to be added and updated with month names as well.
+- Week numbers and Month numbers columns was also added using the same procedure for sorting purposes.
+# Data Type Conversions
+# SQL Query
+ALTER TABLE larger_sales_datasets
 
+    ALTER COLUMN Order_ID VARCHAR(50)
+
+    ALTER TABLE larger_sales_datasets
+
+    ALTER COLUMN Product_Category VARCHAR(50)
+
+    ALTER TABLE larger_sales_datasets
+
+    ALTER COLUMN Quantity SMALLINT
+
+    ALTER TABLE larger_sales_datasets
+
+    ALTER COLUMN Total_Price FLOAT
+
+    ALTER TABLE larger_sales_datasets
+
+    ALTER COLUMN Order_Date DATE
+
+    ALTER TABLE larger_sales_datasets
+
+    ALTER COLUMN Payment_Type VARCHAR(50)
+
+    ALTER TABLE larger_sales_datasets
+
+    ALTER COLUMN Order_Status VARCHAR(50)
+
+# OUTPUT
 
 
 
