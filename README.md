@@ -1,2 +1,140 @@
 # CUSTOMER SALES ORDERS PORFOLIO PROJECT
 # EXCEL AND SQL PROJECT
+## Table of Contents
+  - Objective
+    - Business Problem
+    - Project Objective 
+- Data Source
+- Stages
+- Design
+   - Tools
+- Development
+   - Pseudocode
+   - Data Exploration
+   - Data Cleaning
+- Testing
+  - Data Quality Tests
+- Visualization
+  - Results
+-  Analysis
+    - Findings
+     - Validation
+    - Discovery
+ - Recommendations
+    - Potential ROI
+    -  Potential Courses of Actions 
+ - Conclusion
+# Objective
+# Business Problem
+There are several business problems we need to addresss in this project :
+- The following are the problems:
+1. How can we track and analyze sales performance across different product categories to identify trends and patterns?
+2. What are the key factors influencing the sales volume and total revenue?
+3. How can we optimize inventory levels based on sales data to avoid stockouts and overstock situations?
+4. Which product categories require more attention in terms of inventory replenishment?
+5. What are the purchasing behaviors and preferences of our customers based on order history and payment types?
+6. How can we segment our customers to tailor marketing strategies effectively?
+7. How can we predict future sales and revenue based on historical data?
+8. What impact do seasonal trends and order statuses have on our sales forecasts?
+9. How can we improve our order processing times and reduce delays in order fulfillment?
+10. What are the common causes of order cancellations and how can we mitigate them?
+# Project Objective 
+- The Customer Sales Orders Data Analysis project aims to optimize sales performance, enhance inventory management, and improve customer satisfaction by analyzing sales data. It seeks to uncover trends, forecast revenue, and streamline order processing. These insights will drive strategic decisions and operational efficiency.
+- Ideal Solution is:
+
+  Creating Dashboard that will provide the  insights on Customer Sales orders Project that includes their:
+  - Total Orders
+  - Total Revenue
+  - Total Quantity
+
+This will help to identify trends and patterns in data and overal business .
+# Data source
+We need data on larger sales dataset that include their:
+- Order Id
+- Product Category
+- Quantity
+- Total Price
+-  Order Date
+-  Payment Type
+-   Order Status
+
+The data is sourced from Kaggle (an Excel extract),link is here https://www.kaggle.com/datasets/hassaneskikri/fictional-e-commerce-sales-data
+# Stages
+- Design
+- Developement
+- Testing
+- Analysis
+# Design
+# Dashboard components required
+The following are requirements that our dashboard will answer:
+1. Top and Bottom Order Status that influence customer sales orders.
+2. Top and Bottom Payment type popular widely used and their influence to customer sales orders.
+3. Top and Bottom Product Categories that contributes to high income and low income growth influence in customer sales orders.
+4. Distributiuon of sales over time i.e(weeky trend and monthly trend).
+# Dashboard Design
+Some of the data visuals that may be appropriate in answering our questions include:
+- Culumn Chart
+- Horizontal Bar Chart
+- Donut Chart
+- Area Chart
+# Tools
+| Tool | Purpose |        
+|------------|------------|
+| Excel | Exploring the data and Visualizing the data via interactive dashboards | 
+| SQL Server  | Cleaning, testing, and analyzing the data    |  
+| GitHub  | 	Hosting the project documentation and version control  | 
+# Development
+# Pseudocode
+- The general approach in creating this solution from start to finish  was:
+1. Get the data
+2. Explore the data in Excel
+3. Load the data into SQL Server
+4. Clean the data with SQL
+5. Test the data with SQL
+6. Visualize the data in Excel
+7. Generate the findings based on the insights
+8. Write the documentation + commentary
+9. Publish the data to GitHub Pages
+# Data exploration notes
+The following caught my attention so far:
+1. We need atleast 7 columns for our analysis the rest of other columns are unnessesary need to be removed.
+2. Their is product category column which indicates analysis of various sales distributions across different products.
+3. Their is Order Id ,Total Price  And Quantity columns that we need to determine their relationships and contributions towards various products.
+4. We have also Order Status And Payment Types column which will help to identify efficency of order and also preferences of customers based on the payment methods.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
