@@ -245,10 +245,34 @@ Steps are needed to clean and shape the data into the desired format is:
 # Visualization
 # Results
 - This is the look of the dashboard
+![Sales Dashboard img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/e1180041-cd4e-4f2b-b7a1-ace20e19e15d)
 
-
-
-
+# Analysis
+# Findings
+- Here are some of the questions we need to answer for our project
+1. Top  and bottom  product category by Total Orders
+2. Top  Payment Types by Total Quantity
+3. Top and Bottom Orders Status by Total Orders
+4. Weekly Trend for Total orders
+5. Monthly Trend For Total price
+ 
+# 1. Top  and bottom  product category by Total Orders
+# Top  Product Category By Quantity
+|Rank|Product Category|Total Orders
+|---------|--------|---------|
+|1|Sports & Outdoors|1719K
+|2|Clothing|1704K
+|3|Electronics| 1665K
+|4|Home & Kitchen| 1664K
+|5|Books|1634K
+|6|Beauty & Health|1614K
+# 2. Top  Payment Types by Total Quantity
+|Rank|Payment Type|Total Quantity
+|---------|--------|---------|
+|1|PayPal|7832K
+|2|Debit Card|7640K
+|3|Gift Card| 7320K
+|4|Credit Card| 7305K
 
 
 
