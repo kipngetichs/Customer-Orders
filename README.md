@@ -257,7 +257,6 @@ Steps are needed to clean and shape the data into the desired format is:
 5. Monthly Trend For Total price
  
 # 1. Top  and bottom  product category by Total Orders
-# Top  Product Category By Quantity
 |Rank|Product Category|Total Orders
 |---------|--------|---------|
 |1|Sports & Outdoors|1719K
@@ -273,6 +272,157 @@ Steps are needed to clean and shape the data into the desired format is:
 |2|Debit Card|7640K
 |3|Gift Card| 7320K
 |4|Credit Card| 7305K
+# 3. Top and Bottom Orders Status by Total Orders
+|Rank|Order Status|Total Orders
+|---------|--------|---------|
+|1|Pending|2575K
+|2|Cancelled|2537K
+|3|Completed| 2457K
+|4|Refunded| 2431K
+
+# 4. Weekly Trend for Total orders
+|Rank|Week Name|Total Orders
+|---------|--------|---------|
+|1|Sunday|1433K
+|2|Monday|1449K
+|3|Tuesday| 1486K
+|4|Wednesday| 1379K
+|5|Thursday|1372K
+|6|Friday|1470K
+|7|Saturday| 1411K
+# 5. Monthly Trend For Total price
+|Rank|Month Name|Total Price
+|---------|--------|---------|
+|1|January|$681775.81K
+|2|February|$590371.60K
+|3|March| $658498.00K
+|4|April| $593018.86K
+|5|May|$646233.03K
+|6|June|$612352.99K
+|7|July| $667303.41K
+|8|August| $637847.23K
+|9|September| $608390.98K
+|10|October|$670278.96K
+|11|November|$552576.79K
+|12|December| $708594.32K
+ # Notes
+ - For this analysis, we'll prioritize analysing the metrics that are important in generating the expected ROI for our project, which are the product category,order status,payment type and times (weeks and months) with the most:
+   - Total Orders
+   - Total Price
+   - Total Quantity
+# Validation
+# 1. Top  and Bottom Product Categories With Highest and Lowest Income Growth Contributions
+Calculation Breakdown
+
+Top Product category=High income growth
+1. Sports & Outdoors
+   - Total Orders=1719K
+   - Total Price=$1313735.43K
+   - Total Quantity=5190K
+2. Clothing
+   - Total Orders=1704K
+   - Total Price=$1303679.19K
+   - Total Quantity=5121K
+3. Electronics
+   - Total Orders=1665K
+   - Total Price=$1290283.08K
+   - Total Quantity=5077K
+4. Home & Kitchen
+   - Total Orders=1664K
+   - Total Price=$1268471.94K
+   - Total Quantity=5049K
+5. Books
+   - Total Orders=1634K
+   - Total Price=$1249307.25K
+   - Total Quantity=4888K
+6. Beauty & Health
+   - Total Orders=1614K
+   - Total Price=$1201765.07K
+   - Total Quantity=4772K
+# SQL Query
+    SELECT Product_Category,
+
+    COUNT(Order_ID)Total_Orders,
+
+    CAST(SUM(Total_Price) AS DECIMAL(10,2))Total_price,
+
+    SUM(Quantity)Total_Quantity
+
+    from larger_sales_datasets
+
+    GROUP BY Product_Category
+
+    ORDER BY Total_price DESC
+
+
+
+
+# 2.Most and least popular Payment Types
+Calculation Breakdown
+
+Popular Payment Type=Top Widely used
+1. PayPal
+   - Total Orders=2573K
+   - Total Price=$1968860.18K
+   - Total Quantity=7832K
+2. Debit Card
+   - Total Orders=2529K
+   - Total Price=$1936094.39K
+   - Total Quantity=7640K
+3. Gift Card
+   - Total Orders=2445k
+   - Total Price=$1864970.44K
+   - Total Quantity=7320K
+4. Credit Card
+   - Total Orders=2453K
+   - Total Price=$1857316.95K
+   - Total Quantity=7305K
+
+# 3. Order Status Trend
+1. Pending
+   - Total Orders=2575K
+   - Total Price=$1970902.18K
+   - Total Quantity=7787K
+2. Cancelled
+   - Total Orders=2537K
+   - Total Price=$1968945.61K
+   - Total Quantity=7733K  
+3. Completed
+   - Total Orders=2457K
+   - Total Price=$1846623.55K
+   - Total Quantity=7304K
+4. Refunded
+   - Total Orders=2431K
+   - Total Price=$1840770.63K
+   - Total Quantity=7273K
+# 4. Weekly Trend Contributions to the business
+Calculation Breakdown
+
+Highest Week=High income growth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
