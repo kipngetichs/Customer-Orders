@@ -427,25 +427,52 @@ Popular Payment Type=Top Widely used
     ORDER BY Total_price DESC
 # OUTPUT
 
-
-
-
-
-
-
-
+![Top Order status](https://github.com/kipngetichs/Customer-Orders/assets/169267198/05e20885-0a8a-4b4f-a7c0-8e2e3c84a934)
 # 4. Weekly Trend Contributions to the business
 Calculation Breakdown
 
 Highest Week=High income growth
 
+1. Sunday
+   - Total Orders=1433K
+   - Total Price=$1105088.89K
+   - Total Quantity=4358K
+2. Monday
+   - Total Orders=1449K
+   - Total Price=$1089617.37K
+   - Total Quantity=4340K
+3. Tuesday
+   - Total Orders=1486K
+   - Total Price=$1140649.68K
+   - Total Quantity=4457K
+4. Wednesday
+   - Total Orders=1379K
+   - Total Price=$1025331.48K
+   - Total Quantity=4158K
+5. Thursday
+   - Total Orders=1372K
+   - Total Price=$1036657.71K
+   - Total Quantity=4054K
+6. Friday
+   - Total Orders=1470K
+   - Total Price=$1156185.18K
+   - Total Quantity=4466K
+# SQL Query
+    SELECT Week_Num,Week_Name,
 
+    COUNT(Order_ID)Total_Orders,
 
+    CAST(SUM(Total_Price) AS DECIMAL(10,2))Total_price,
 
+    SUM(Quantity)Total_Quantity
 
+    FROM larger_sales_datasets
 
+    GROUP BY Week_Num,Week_Name
 
+    ORDER BY Week_Num
 
+# OUTPUT
 
 
 
