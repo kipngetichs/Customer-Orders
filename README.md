@@ -353,9 +353,9 @@ Top Product category=High income growth
     GROUP BY Product_Category
 
     ORDER BY Total_price DESC
+# OUTPUT
 
-
-
+![Top Category img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/e7a6cb22-ffd2-4163-a9b7-d6f27e8a5af7)
 
 # 2.Most and least popular Payment Types
 Calculation Breakdown
@@ -377,6 +377,22 @@ Popular Payment Type=Top Widely used
    - Total Orders=2453K
    - Total Price=$1857316.95K
    - Total Quantity=7305K
+# SQL Query
+    SELECT Payment_Type,
+
+    COUNT(Order_ID)Total_Orders,
+
+    CAST(SUM(Total_Price) AS DECIMAL(10,2))Total_price,
+
+    SUM(Quantity)Total_Quantity
+
+    FROM larger_sales_datasets
+
+    GROUP BY Payment_Type
+
+    ORDER BY Total_price DESC
+# OUTPUT
+
 
 # 3. Order Status Trend
 1. Pending
