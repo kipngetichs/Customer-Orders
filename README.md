@@ -393,7 +393,7 @@ Popular Payment Type=Top Widely used
     ORDER BY Total_price DESC
 # OUTPUT
 
-
+![Top Payment type](https://github.com/kipngetichs/Customer-Orders/assets/169267198/81857182-0a59-4c8f-9d3a-e2e6c9101785)
 # 3. Order Status Trend
 1. Pending
    - Total Orders=2575K
@@ -411,6 +411,29 @@ Popular Payment Type=Top Widely used
    - Total Orders=2431K
    - Total Price=$1840770.63K
    - Total Quantity=7273K
+# SQL Query
+    SELECT Order_Status,
+
+    COUNT(Order_ID)Total_Orders,
+
+    CAST(SUM(Total_Price) AS DECIMAL(10,2))Total_price,
+
+    SUM(Quantity)Total_Quantity
+
+    FROM larger_sales_datasets
+
+    GROUP BY Order_Status
+
+    ORDER BY Total_price DESC
+# OUTPUT
+
+
+
+
+
+
+
+
 # 4. Weekly Trend Contributions to the business
 Calculation Breakdown
 
