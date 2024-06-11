@@ -473,23 +473,77 @@ Highest Week=High income growth
     ORDER BY Week_Num
 
 # OUTPUT
+![Weekly treng img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/99a9a5fc-0f73-4296-8c71-3b8e0a8d3d64)
 
+# 5. Monthly Trend Contribution to the business
+Calculation Breakdown
 
+Top Month=high income growth
 
+1. January
+   - Total Orders=873K
+   - Total Price=$681775.81K
+   - Total Quantity=2587K
+2. February
+   - Total Orders=795K
+   - Total Price=$590371.60K
+   - Total Quantity=2291K
+3. March
+   - Total Orders=841K
+   - Total Price=$658498.00K
+   - Total Quantity=2569K
+4. April
+   - Total Orders=810K
+   - Total Price=$593018.86K
+   - Total Quantity=2461K
+5. May
+   - Total Orders=839K
+   - Total Price=$646233.03K
+   - Total Quantity=2515K
+6. June
+   - Total Orders=840K
+   - Total Price=$612352.99K
+   - Total Quantity=2487K
+7. July
+   - Total Orders=873K
+   - Total Price=$667303.41K
+   - Total Quantity=2669k
+8. August
+   - Total Orders=851K
+   - Total Price=$637847.23K
+   - Total Quantity=2547K
+9. September
+    - Total Orders=795K
+    - Total Price=$608390.98K
+    - Total Quantity=2367K
+10. October
+    - Total Orders=868K
+    - Total Price=$670278.96K
+    - Total Quantity=2689K
+11. November
+    - Total Orders=727K
+    - Total Price=$552576.79K
+    - Total Quantity=2173K
+12. December
+    - Total Orders=888K
+    - Total Price=$708594.32K
+    - Total Quantity=2742K
 
+# SQL Query
+    SELECT Month_Num,Month_Name,
 
+    COUNT(Order_ID)Total_Orders,
 
+    CAST(SUM(Total_Price) AS DECIMAL(10,2))Total_price,
 
+    SUM(Quantity)Total_Quantity
 
+    FROM larger_sales_datasets
 
+    GROUP BY Month_Num,Month_Name
 
-
-
-
-
-
-
-
+    ORDER BY Month_Num
+# OUTPUT 
 
 
 
