@@ -544,10 +544,45 @@ Top Month=high income growth
 
     ORDER BY Month_Num
 # OUTPUT 
-
-
-
-
-
-
-
+![Monthly trend img](https://github.com/kipngetichs/Customer-Orders/assets/169267198/c16d2804-425a-4aed-81b4-c9908ccc69e9)
+# Discovery
+We discovered that:
+1. Sports & Outdoors,Clothing,Electronics and Home & Kitchen are among product categories that contributes to high income growth to the customer sales order project than 
+Books and Beauty & Health that tend to contribute lowe income growth.
+2. PayPal and Debit Card are among payment types that are popular and widely used by many customers compared to Gift Card and Credit Card which few customers prefer.
+3. Pending and Cancelled are among order status where high income growth contributions relay on compared to Completed and Refunded status.
+4. Fridays and Tuesdays are among week days that contributes to high income growth compared to the rest ot the week that contributes to moderate consistent growth.
+5. December,January and October are among the months that contributes to high income growth contributions compared to rest of the months that contributes to moderate slightly consistent growth.
+# Recommendations
+- Here is the recommendations based on the insights discovered
+1. Prioritizing High-Growth  Product Categories: Increasing inventory, marketing and promotional efforts for Sports & Outdoors, Clothing, Electronics and Home & Kitchen. These categories should be highlighted in advertisements, sales promotions, and special offers to maximize their revenue potential.
+   - Re-evaluating Low-Growth Product Categories: Assessing the market strategy for Books and Beauty & Health. Considering if these categories need better marketing, bundling with high-growth products, or if resources should be reallocated to more profitable categories.
+2. Enhancing Popular Payment Methods: Streamlining the payment process for PayPal and Debit Card to ensure a smooth and efficient customer experience. Highlighting these options during checkout and in promotional materials.
+   - Promoting Less Preferred Options: Implementing special incentives such as discounts or rewards for using Gift Cards and Credit Cards to increase their usage. This can help in diversifying payment method preferences and reduce dependence on just a few payment types.
+3. Converting Pending and Cancelled Orders: Analyzing the reasons behind high contributions from Pending and Cancelled orders. Developing strategies to address issues leading to cancellations and delays in order completion. For instance, improving inventory accuracy, enhancimg customer service and providing timely updates on order status.
+   - Enhancing Completed Orders: Focusing on reducing the time to complete orders and ensuring that the majority of orders are moved to Completed status promptly to improve cash flow and customer satisfaction.
+4. Leveraging High-Growth Days: Planning major sales events, flash sales and promotions around Fridays and Tuesdays to capitalize on their higher income potential. These days should also see increased staffing and inventory levels to meet higher demand.
+   - Optimizing Other Days: Implementing strategies to boost sales on other weekdays. Introducing mid-week special deals or loyalty program points on less popular days to encourage more consistent growth throughout the week.
+5. Maximizing High-Growth Months: Focusing on aggressive marketing campaigns and inventory buildup for December, January and October. These months should have planned large-scale promotions, holiday sales and special events to take full advantage of the high-income growth potential.
+   - Steady Growth in Other Months: Maintaining consistent marketing and engagement activities during other months to ensure steady income. Using these periods to build customer relationships, testing new marketing strategies and preparing for the peak months.
+# Potential ROI
+1. 10% Revenue increase due to focused marketing and inventory management for high-growth categories this will lead to an estimates growth of  $1,100,000 new monthly revenue.
+2. 2% Payment Type increase by streamlining popular payment methods and promoting less preferred ones this will lead to an estimate growth of   $1,122,000 new monthly revenue.
+3. 3% Order status increase by converting pending and cancelled orders to completed orders this will lead to an estimate growth of $1,155,660 new monthly revenue.
+4. 2% increase by leveraging high-growth days and boosting other weekdays this will lead to an estimate of $1,178,773 new monthly revenue.
+5. 3% increase by maximizing high-growth months and maintaining steady growth in other months this will lead to an estimate of $1,213,136 new monthly revenue. 
+# Potential Courses of Actions
+# Action plan
+The following are actoins needed to be taken in order to achieve this:
+1. Conducting a detailed market analysis to understand customer preferences within high-growth categories.
+2. Optimizing inventory levels for high-growth categories to ensure stock availability.
+3. Launching targeted marketing campaigns highlighting high-growth categories
+4. Conducting A/B testing to identify the best user interface for payment options
+5. Planning and execute major sales events on Fridays and Tuesdays  and Offer exclusive deals and discounts to drive traffic on these days.
+6. Develop a marketing campaign calendar for December, January  and October also Planning holidays sales, special events and promotional activities.
+# Conclusion
+1. Focusing on high-growth product categories can significantly boost revenue.
+2. Enhancing PayPal and Debit Card payment options and promoting Gift Cards and Credit Cards will improve customer satisfaction and sales.
+3. Addressing issues with pending and cancelled orders will increase order completion rates.
+4. Leveraging Fridays and Tuesdays for major promotions and boosting sales on other weekdays will optimize revenue.
+5. Planning aggressive marketing and inventory strategies for December, January, and October will maximize seasonal sales growth.
